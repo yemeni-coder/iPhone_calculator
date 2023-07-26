@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> IPHONE CALCULATOR </title>
+
+    <!-- Link files -->
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+
+    <!-- Calculator -->
+
+    <div class="calc">
+
+      <div class="screen">0</div>
+
+      <div class="buttonBox">
+
+        <button class="btn" onclick="clearField()">C</button>
+
+        <button class="btn" onclick="delNum()">&#9003;</button>
+
+        <button class="btn" onclick="percentOpt()">%</button>
+
+        <button class="btn opt" onclick="appendOpt('/')">÷</button>
+
+        <button class="btn" onclick="appendNum('7')">7</button>
+
+        <button class="btn" onclick="appendNum('8')">8</button>
+
+        <button class="btn" onclick="appendNum('9')">9</button>
+
+        <button class="btn opt" onclick="appendOpt('*')">×</button>
+
+        <button class="btn" onclick="appendNum('4')">4</button>
+
+        <button class="btn" onclick="appendNum('5')">5</button>
+
+        <button class="btn" onclick="appendNum('6')">6</button>
+
+        <button class="btn opt" onclick="appendOpt('-')">-</button>
+
+        <button class="btn" onclick="appendNum('1')">1</button>
+
+        <button class="btn" onclick="appendNum('2')">2</button>
+
+        <button class="btn" onclick="appendNum('3')">3</button>
+
+        <button class="btn opt" onclick="appendOpt('+')">+</button>
+
+        <button class="btn zero" onclick="appendNum('0')">0</button>
+
+        <button class="btn" onclick="appendNum('.')">.</button>
+
+        <button class="btn opt" onclick="calc()">=</button>
+
+      </div>
+
+
+
+
+    </div>
+
+
+  </body>
+
+</html>
